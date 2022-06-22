@@ -111,8 +111,8 @@
         </div>
         <div class="portfolyo_bg">
             <div class="egitim">
-                <div class="lise egit animates"><div class="name" style="float: left; font-size: 22px;">Lise</div><div class="date" style="float: right;">Eyl 2019 - Devam Ediyor</div><div class="info" style="clear:both; position: relative; top:22px;">Sultangazi Mesleki Teknik Anadolu Lisesi, İstanbul</div></div>
-                <div class="ortaokul egit animates"><div class="name" style="float: left; font-size: 22px;">Orta Okul</div><div class="date" style="float: right;">Eyl 2013 - 2019</div><div class="info" style="clear:both; position: relative; top:22px;">Zübeyde Hanım İlk Öğretim Okulu, İstanbul</div></div>
+                <div class="lise egit animates_1"><div class="name" style="float: left; font-size: 22px;">Lise</div><div class="date" style="float: right;">Eyl 2019 - Devam Ediyor</div><div class="info" style="clear:both; position: relative; top:22px;">Sultangazi Mesleki Teknik Anadolu Lisesi, İstanbul</div></div>
+                <div class="ortaokul egit animates_2"><div class="name" style="float: left; font-size: 22px;">Orta Okul</div><div class="date" style="float: right;">Eyl 2013 - 2019</div><div class="info" style="clear:both; position: relative; top:22px;">Zübeyde Hanım İlk Öğretim Okulu, İstanbul</div></div>
             </div>
             <div class="portfolyo animates" id="Portfolyo">
                 <br><h1 align="center">Portfolyo</h1> <p>Eğitimime, Sultangazi Mesleki Teknik Ve Anadolu Lisesi Bilişim Bölümünde devam etmekteyim. <br><br> 10.Sınıftan itibaren C#, Tinkercad, Word, Excel, HTML, CSS ve javaScript eğitimi gördüm ve kendi çabalarımla python öğrenip birkaç basit proje yaptım. Pandemi'nin Mesleki Eğitim hayatıma denk gelmesi ile derslerime olan olmsuz etkilerini olabildiğince minimuma indirdim ve daha fazlası için çabaladım. <br><br>Bundan sonrası için daha fazla çabalayıp, Web alanında daha fazla gelişip, Bu sektörde önemli bir yer edinmeyi amaçlıyorum. <br><br>
@@ -128,6 +128,8 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script>
         ScrollReveal().reveal('.animates');
+        ScrollReveal().reveal('.animates_1',{delay:250});
+        ScrollReveal().reveal('.animates_2',{delay:500});
         $(window).scroll(function() {
             if ($(this).scrollTop() >= 350) {
                 $('#yukaricik').fadeIn(200);
